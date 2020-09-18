@@ -102,7 +102,7 @@ namespace DoctorViewFhirInteractionApi.Controllers
         /// <response code="200">successful operation</response>
         /// <response code="400">Invalid tag value</response>
         [HttpGet]
-        [Route("/PranavDesu6/TestApi/1.0.0/pet/findByTags")]
+        [Route("/PranavDesu6/TestApi/1.0.0/pet/findByTags1")]
         [ValidateModelState]
         [SwaggerOperation("FindPetsByTags")]
         [SwaggerResponse(statusCode: 200, type: typeof(List<Pet>), description: "successful operation")]
